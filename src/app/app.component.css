@@ -1,0 +1,23 @@
+p {
+  font-family: Lato;
+}
+
+@media (max-width:640px) {
+  .hidden-sm-down {
+    display: none;
+  }
+
+  .hidden-md-up {
+    display: initial;
+  }
+}
+
+@media (min-width:641px) {
+  .hidden-sm-down {
+    display: initial;
+  }
+
+  .hidden-md-up {
+    display: none;
+  }
+}
